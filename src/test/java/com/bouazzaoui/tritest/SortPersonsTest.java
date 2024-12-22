@@ -16,6 +16,7 @@ public class SortPersonsTest {
 
     @Test
     public void testSortPersonsByLastNameAndFirstName() {
+        // Création de la liste de personnes
         List<Person> people = Arrays.asList(
                 Person.builder()
                         .lastName("Bouazzaoui")
@@ -53,6 +54,7 @@ public class SortPersonsTest {
 
     @Test
     public void testCalculateAge() {
+        // Création de la liste de personnes
         List<Person> people = Arrays.asList(
                 Person.builder()
                         .lastName("Bouazzaoui")
@@ -82,3 +84,4 @@ public class SortPersonsTest {
                 .allMatch(age -> age > 20, "All persons should be older than 20");
     }
 }
+
