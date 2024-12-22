@@ -13,7 +13,7 @@ public class PersonService {
     private static final List<Person> mockPersonsDatabase = Arrays.asList(
             new Person("Bouazzaoui", "Yassine", LocalDate.of(2003, 1, 1), "Agadir"),
             new Person("Elgaddari", "Abdeljabbar", LocalDate.of(2002, 11, 7), "Marrakech"),
-            new Person("Errazaki", "Ayoub", LocalDate.of(1998, 17, 1), "Casablanca")
+            new Person("Errazaki", "Ayoub", LocalDate.of(1998, 2, 1), "Casablanca")
     );
 
     // Filtre les personnes par adresse
